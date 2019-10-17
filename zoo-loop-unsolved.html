@@ -11,7 +11,7 @@
     <script>
 
       // Array of zoo animals.
-      var zooAnimals = ["Zebra", "Rhino", "Giraffe", "Owl"];
+      var zooAnimals = ["Zebra", "Rhino", "Giraffe", "Owl", "Otter"];
 
       // Rewrite the following code to print all of the animals using a for-loop.
       // console.log(zooAnimals[0]);
@@ -30,6 +30,11 @@
       console.log(element + " is an animal")
     });
 
+//filter out animals that do not start with "o"
+
+const oAnimals = zooAnimals.filter((element)=> element.startsWith("O"))
+
+console.log(oAnimals)
     </script>
     
   </body>
