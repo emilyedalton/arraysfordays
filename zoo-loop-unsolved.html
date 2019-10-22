@@ -49,6 +49,18 @@ console.log(sortAnimals)
 
 const descendingAnimals = sortAnimals.reverse()
 console.log (descendingAnimals)
+
+// fileter the animal object 
+const animalObject = [
+{id: 1, animal: "zebra" },
+{id: 2, animal: "snake" },
+{id: 3, animal: "horse" },
+{id: 4, animal: "cat" },
+{id: 5, animal: "antelope" }]
+
+let filterAnimalObj = animalObject.filter(element => element.id > 3);
+
+console.log(filterAnimalObj)
     </script>
     
   </body>
